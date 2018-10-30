@@ -1,6 +1,7 @@
 import XCTest
-@testable import ckafkaTests
 
-XCTMain([
-     testCase(ckafkaTests.allTests),
-])
+import ckafkaTests
+
+var tests = [XCTestCaseEntry]()
+tests += ckafkaTests.allTests()
+XCTMain(tests)

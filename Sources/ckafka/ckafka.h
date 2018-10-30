@@ -1,6 +1,6 @@
 //
-//  ckafkalib.h
-//  ckafkalib
+//  ckafka.h
+//  ckafka
 //
 //  Created by Adolfo on 30/10/2018.
 //
@@ -15,4 +15,3 @@ FOUNDATION_EXPORT const unsigned char ckafkalibVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <ckafkalib/PublicHeader.h>
 #include "/usr/local/include/librdkafka/rdkafka.h"
-
